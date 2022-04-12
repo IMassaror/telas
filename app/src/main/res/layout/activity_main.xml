@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradientbg"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card3"
+        android:layout_width="350dp"
+        android:layout_height="130dp"
+        app:cardCornerRadius="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="30dp"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            android:paddingVertical="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Digite a placa do veiculo"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            android:paddingVertical="15dp">
+
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/buttonshape"
+                android:text="Buscar" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="45dp"
+                android:hint="Digite a placa"
+                android:padding="10dp" />
+
+        </RelativeLayout>
+
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card2"
+        android:layout_width="350dp"
+        android:layout_height="170dp"
+        app:cardCornerRadius="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="30dp"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:clickable="true">
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            android:paddingVertical="15dp">
+
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="00dp"
+                    android:src="@drawable/ic_prancheta" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="60dp"
+                    android:text="Registrar irregularidade"
+                    android:textAppearance="?attr/textAppearanceHeadline6" />
+
+
+        </LinearLayout>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        app:cardCornerRadius="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="30dp"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:clickable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            android:paddingVertical="15dp">
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginLeft="00dp"
+                android:src="@drawable/ic_maps_and_flags_pin_svgrepo_com" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:text="Itinerario de fiscalização"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
+
+        </LinearLayout>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
